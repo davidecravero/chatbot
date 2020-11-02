@@ -22,6 +22,7 @@ class MessageParser {
       // full rich text transformation to react component
       .then((response) => {
         const options = {
+          // open the hyper text link links in a new browser tab
           renderNode: {
             [INLINES.HYPERLINK]: (node, children) => {
               return (
