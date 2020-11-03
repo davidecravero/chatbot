@@ -28,6 +28,14 @@
   color: #61dafb;
 }
 
+.react-chatbot-kit-chat-bot-message {
+  background-color: green;
+}
+
+.react-chatbot-kit-chat-bot-message-arrow {
+  border-right: 8px solid green;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

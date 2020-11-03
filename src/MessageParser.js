@@ -2,7 +2,7 @@
 import client from "./contentful";
 import React from "react";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
-import { INLINES } from "@contentful/rich-text-types";
+import { INLINES, MARKS } from "@contentful/rich-text-types";
 
 class MessageParser {
   constructor(actionProvider) {
@@ -23,6 +23,18 @@ class MessageParser {
       .then((response) => {
         const options = {
           // open the hyper text links in a new browser tab
+          renderMark: {
+            [MARKS.BOLD]: (text) => (
+              <button
+                onClick={() => {
+                  this.actionProvider.clientMessage(text);
+                  this.parse(text);
+                }}
+              >
+                {text}
+              </button>
+            ),
+          },
           renderNode: {
             [INLINES.HYPERLINK]: (node, children) => {
               return (
@@ -37,6 +49,7 @@ class MessageParser {
           response.items[0].fields.chatbotDialogsRich,
           options
         );
+        console.log(doc);
         if (response.items.length === 1) this.actionProvider.greet(doc);
       })
       .catch(console.error);

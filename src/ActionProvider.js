@@ -1,15 +1,19 @@
 //define responses
-// import React, { useState } from "react";
-import client from "./contentful";
 
 class ActionProvider {
-  constructor(createChatBotMessage, setStateFunc) {
+  constructor(createChatBotMessage, setStateFunc, createClientMessage) {
     this.createChatBotMessage = createChatBotMessage;
     this.setState = setStateFunc;
+    this.createClientMessage = createClientMessage;
   }
 
   greet = (botMessage) => {
     const message = this.createChatBotMessage(botMessage);
+    this.addMessageToState(message);
+  };
+
+  clientMessage = (clientMessage) => {
+    const message = this.createClientMessage(clientMessage);
     this.addMessageToState(message);
   };
 
