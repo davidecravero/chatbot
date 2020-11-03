@@ -26,6 +26,7 @@ class MessageParser {
           renderMark: {
             [MARKS.BOLD]: (text) => (
               <button
+                class="bottone"
                 onClick={() => {
                   this.actionProvider.clientMessage(text);
                   this.parse(text);

@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-logo {
@@ -29,11 +30,29 @@
 }
 
 .react-chatbot-kit-chat-bot-message {
-  background-color: green;
+  background-color: #008b8b;
 }
 
 .react-chatbot-kit-chat-bot-message-arrow {
-  border-right: 8px solid green;
+  border-right: 8px solid #008b8b;
+}
+
+/* chat botton */
+
+.react-chatbot-kit-chat-btn-send {
+  background-color: #008b8b;
+}
+
+.bottone {
+  background-color: gray;
+  /* padding: 5px 12px; */
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #4caf50; /* Green */
+  color: white;
 }
 
 @keyframes App-logo-spin {
