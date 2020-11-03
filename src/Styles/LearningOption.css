@@ -1,6 +1,6 @@
 /* Topics selection container */
 
-/* .learning-options-container {
+.learning-options-container {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
@@ -10,6 +10,6 @@
   padding: 0.5rem;
   border-radius: 25px;
   background: transparent;
-  border: 1px solid green;
-  margin: 3px;
-}  */
+  border: 2px solid #ff00e1;
+  margin: 5px;
+}
