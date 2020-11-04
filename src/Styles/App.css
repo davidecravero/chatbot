@@ -29,20 +29,6 @@
   color: #61dafb;
 }
 
-.react-chatbot-kit-chat-bot-message {
-  background-color: #008b8b;
-}
-
-.react-chatbot-kit-chat-bot-message-arrow {
-  border-right: 8px solid #008b8b;
-}
-
-/* chat botton */
-
-.react-chatbot-kit-chat-btn-send {
-  background-color: #008b8b;
-}
-
 .bottone {
   background-color: gray;
   /* padding: 5px 12px; */
