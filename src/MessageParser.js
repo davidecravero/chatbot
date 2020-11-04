@@ -27,6 +27,7 @@ class MessageParser {
             [MARKS.BOLD]: (text) => (
               <button
                 class="bottone"
+                style={{ marginTop: 5 }}
                 onClick={() => {
                   this.actionProvider.clientMessage(text);
                   this.parse(text);

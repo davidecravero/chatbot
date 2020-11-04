@@ -2,6 +2,8 @@
 import { createChatBotMessage } from "react-chatbot-kit";
 
 const config = {
+  botName: "Chatbot",
+  //overwrite the existing style
   customStyles: {
     botMessageBox: {
       backgroundColor: "#008b8b",
@@ -11,7 +13,7 @@ const config = {
     },
   },
   initialMessages: [
-    createChatBotMessage("Hello, please type HELP to start the conversation"),
+    createChatBotMessage("Hello, please type 'Help' to start the conversation"),
   ],
 };
 
