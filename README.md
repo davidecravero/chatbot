@@ -1,4 +1,4 @@
-## chatbot
+## Chatbot
 
 WBS coding school final project created by Davide Cravero.
 
