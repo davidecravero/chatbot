@@ -39,7 +39,7 @@ Thanks to this connection with Contentful API, we can control all the text conte
 
 # How to run locally
 
-- System requirements: [Node.js](https://nodejs.org/)
+- System requirements: [Node.js](https://nodejs.org/);
 - Fork the repository;
 - Clone it to your local repo;
 - Run "npm install" to install dependencies;
