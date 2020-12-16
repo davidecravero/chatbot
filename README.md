@@ -24,7 +24,8 @@ The rich text is linked to the keyword, where the keyword is the topic and the r
 
 Thanks to this connection with Contentful API, we can control all the text content displayed in the App, we can easily customize the conversation, and even change the behaviour of the chatbot.
 
-# See it live: https://chatbotwbs.herokuapp.com/
+# See it live: 
+## https://chatbotwbs.herokuapp.com/
 
 # Stack
 
