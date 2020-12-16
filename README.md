@@ -32,10 +32,10 @@ Thanks to this connection with Contentful API, we can control all the text conte
 - [REACT.JS](https://reactjs.org/) (User Interface) using functional components;
 - Npm dependancies: react-chatbot-kit (https://github.com/FredrikOseberg/react-chatbot-kit);
 - JS/JSX: App logic;
-- CSS (external styling);
+- CSS: external styling;
 - Contentfull: API for the Chatbot dialogs (https://www.contentful.com/);
-- GIT/GITHUB (version control);
-- Heroku (Deployment);
+- GIT/GITHUB: version control;
+- Heroku: App deployment;
 
 # How to run locally
 
