@@ -2,11 +2,17 @@
 
 WBS coding school final project created by Davide Cravero.
 
+
+
 # Description
 
 This App simulates a conversation between a Customer support agent and a User.
 
 Its goal is to help and guide customers to solve their request.
+
+
+  <img src="./Chatbot.png" width="400">
+
 
 The Chatbot is a Web application, part of a cosmetics and personal Care Products e-commerce,
 The chatbot uses funnel questions in order to get the customers’ query. The User will have to choose one of the 4 different topics:
