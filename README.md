@@ -11,7 +11,7 @@ This App simulates a conversation between a Customer support agent and a User.
 Its goal is to help and guide customers to solve their request.
 
 
-  <img src="./Chatbot.png" width="400">
+  <img src="./Chatbot.png" width="300">
 
 
 The Chatbot is a Web application, part of a cosmetics and personal Care Products e-commerce,
