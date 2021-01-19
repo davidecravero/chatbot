@@ -19,10 +19,12 @@ Shipping,
 Returns,
 Refund.
 
- <img src="./Chatbot2.png" width="300">
+ <img src="/pics/Chatbot2.png" width="300">
  
 Once the User type or click on the selected topic, the Chatbot will display the related subtopics.
 At this point the User can select the subtopic needed so the chatbot will display the correct information.
+
+<img src="/pics/Chatbot3.png" width="300">
 
 All the text dialogs displayed in this app are fetched from Contentful API.
 
@@ -32,7 +34,7 @@ a 'text' field, a 'keyword' field and a 'rich text' field.
 
 The rich text is linked to the keyword, where the keyword is the topic and the rich text is the chatbot reply displayed in the app.
 
-<img src="./ChatbotContentful.png" width="300">
+<img src="/pics/ChatbotContentful.png" width="300">
 
 Thanks to this connection with Contentful API, we can control all the text content displayed in the App, we can easily customize the conversation, and even change the behaviour of the chatbot.
 
