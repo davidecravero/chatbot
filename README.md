@@ -55,11 +55,9 @@ Thanks to this connection with Contentful API, we can control all the text conte
 # How to run locally
 
 - System requirements: [Node.js](https://nodejs.org/);
-- Fork the repository;
+- [Yarn](https://classic.yarnpkg.com/en/) for macOS users you can install Yarn via [Homebrew](https://docs.brew.sh/Installation)
 - Clone it to your local repo;
-- Run "npm install" to install dependencies;
-- Run "npm start" to run local server;
+- Run "yarn install" to install Yarn dependencies;
+- Run "yarn start" to run local server;
 
 Have fun :)
-
-
