@@ -10,9 +10,7 @@ This App simulates a conversation between a Customer support agent and a User.
 
 Its goal is to help and guide customers to solve their request.
 
-
   <img src="/pics/Chatbot.png" width="300">
-
 
 The Chatbot is a Web application, part of a cosmetics and personal Care Products e-commerce,
 The chatbot uses funnel questions in order to get the customers’ query. The User will have to choose one of the 4 different topics:
@@ -22,6 +20,9 @@ Returns,
 Refund.
 
  <img src="./Chatbot2.png" width="300">
+ 
+Once the User type or click on the selected topic, the Chatbot will display the related subtopics.
+At this point the User can select the subtopic needed so the chatbot will display the correct information.
 
 All the text dialogs displayed in this app are fetched from Contentful API.
 
