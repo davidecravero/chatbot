@@ -21,6 +21,8 @@ Shipping,
 Returns,
 Refund.
 
+ <img src="./Chatbot2.png" width="300">
+
 All the text dialogs displayed in this app are fetched from Contentful API.
 
 On my Contentful account I created a 'Content Model' with 3 fields:
@@ -28,6 +30,8 @@ On my Contentful account I created a 'Content Model' with 3 fields:
 a 'text' field, a 'keyword' field and a 'rich text' field.
 
 The rich text is linked to the keyword, where the keyword is the topic and the rich text is the chatbot reply displayed in the app.
+
+<img src="./ChatbotContentful.png" width="300">
 
 Thanks to this connection with Contentful API, we can control all the text content displayed in the App, we can easily customize the conversation, and even change the behaviour of the chatbot.
 
