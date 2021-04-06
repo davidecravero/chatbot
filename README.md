@@ -50,7 +50,7 @@ Thanks to this connection with Contentful API, we can control all the text conte
 - CSS: external styling;
 - Contentfull: API for the Chatbot dialogs (https://www.contentful.com);
 - GIT/GITHUB: version control;
-- Heroku: App deployment (chatbotwbs.herokuapp.com);
+- Heroku: App deployment (https://chatbotwbs.herokuapp.com/);
 
 # How to run locally
 
